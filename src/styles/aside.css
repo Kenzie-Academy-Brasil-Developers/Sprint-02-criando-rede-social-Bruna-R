@@ -1,0 +1,31 @@
+
+aside >h2{
+margin: 40px 0;
+
+font-weight: var(--font-weght-2);
+font-size: var(--font-size-2);
+line-height: var(--line-height-3);
+
+color:var(--color-grey-1);
+}
+
+.aside__sugest{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    overflow-y: scroll;
+}
+
+.profile__container--sugest{
+    min-width: 200px;
+}
+
+.aside__button{
+    height: 28px;
+    position: static;
+    border: 1px solid var(--color-grey-1);
+    border-radius: var(--radius-3);
+    background-color: transparent;
+    color: var(--color-grey-1);
+
+}

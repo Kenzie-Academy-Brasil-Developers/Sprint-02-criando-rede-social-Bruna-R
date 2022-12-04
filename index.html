@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalstyle.css">
+    <link rel="stylesheet" href="./src/styles/button.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/profile.css">
+    <link rel="stylesheet" href="./src/styles/aside.css">
+    <link rel="stylesheet" href="./src/styles/posts.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+
+    <title>TechPosters - Home</title>
+</head>
+<body>
+    <header>
+        <nav class="header__container">
+            <img src="./src/assets/img/logo.svg" alt="TechPosters">
+            <button>Sair</button>
+        </nav>
+    </header>
+    <main id="main">
+        <section class="section__container">
+            <div class="profile__container">
+                <img class="profile__img" src="./src/assets/img/user1.svg" alt="">
+                <div class="profile__info">
+                    <h2>Samuel Leão</h2>
+                    <span>Front end Engineer</span>
+                </div>
+            </div>
+            <form class="form__profile">
+                <input class="form__inputs" type="text" placeholder="Digitar título do post">
+                <textarea class="form__inputs form__inputs--textarea" name="post" id="post" cols="30" rows="10" placeholder="Digitar descrição do post"></textarea>
+                <button class=" btn form__btn" type="submit">Postar</button>
+            </form>
+        </section>
+        <aside class="section__container">
+            <h2>Sugestões para você seguir</h2>
+            <ul class="aside__sugest">
+                
+            </ul>
+        </aside>
+        <section class="section__container">
+            <h1 class="post__title">Posts</h1>
+            <ul id="post-list">
+                
+            </ul>
+        </section>
+
+    </main>
+</body>
+<script src="./src/scripts/users.js"></script>
+<script src="./src/scripts/posts.js"></script>
+<script src="./src/scripts/sugestUsers.js"></script>
+<script src="./src/scripts/index.js"></script>
+<script src="./src/scripts/modal.js"></script>
+</html>

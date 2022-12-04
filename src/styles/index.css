@@ -1,0 +1,35 @@
+@media(min-width:1024px){
+    main{
+        width: 60%;
+    }
+
+    aside{
+        max-width: 350px;
+        position: fixed;
+        top: 80px;
+        right: 28px;
+    }
+
+    .aside__sugest{
+        width: 350px;
+        flex-direction: column;
+        overflow: visible;
+    }
+    .aside__sugest > li{
+        position: relative;
+    }
+
+    .aside__button{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+   
+    }
+
+    .post__card{
+        height: 310px;
+    }
+    .post__content{
+        height: 180px;
+    }
+}

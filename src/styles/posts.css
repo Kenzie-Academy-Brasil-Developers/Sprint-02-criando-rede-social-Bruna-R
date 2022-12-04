@@ -1,0 +1,45 @@
+.post__card{
+    height: 420px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.post__title{
+    font-weight: var(--font-weght-1);
+    font-size: var(--font-size-1);
+    line-height: var(--line-height-1);
+    color:var(--color-grey-1);
+    margin-bottom: 50px;
+}
+
+.post__title--card{
+    margin-bottom: 20px;
+}
+
+.post__content{
+    height: 292px;
+    overflow: hidden;
+}
+
+.post__text{
+    font-weight: var(--font-weght-3);
+    font-size: var(--font-size-3);
+    line-height: var(--line-height-2);
+    color:var(--color-grey-2);
+}
+
+.post__btn{
+    background-color: var(--color-grey-1);
+    color:var(--color-white-fixed);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.post__like{
+    position: absolute;
+    bottom: 10px;
+    left: 124px;
+}
+
+

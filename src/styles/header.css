@@ -1,0 +1,28 @@
+header{
+    width: 100%;
+    background-color: var(--color-grey-1);
+    position: fixed;
+    z-index: 2;
+}
+
+.header__container{
+    width: 90%;
+    height: 76px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__container > img{
+    max-width:7.5rem ;
+}
+
+.header__container > button{
+    background-color: transparent;
+    border: none;
+    color: var(--color-white-fixed);
+    font-weight: var(--font-weight-3);
+    line-height: var(--line-height-4);
+    font-size: var(--font-size-3);
+}

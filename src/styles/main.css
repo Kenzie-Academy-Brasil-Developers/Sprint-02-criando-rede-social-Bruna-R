@@ -1,0 +1,20 @@
+main{
+    width: 100%;
+    padding-top: 125px;
+}
+
+.section__container{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.section__modal{
+    width: 100%;
+    height: 100%;
+    background-color: var( --color-grey-opacity);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
